@@ -1,0 +1,13 @@
+/* src/app/ui/home.module.css */
+.shape {
+  height: 0;
+  width: 0;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+/* Example card style (optional) */
+.card {
+  @apply rounded-lg bg-gray-50 p-6 shadow-md;
+}

@@ -9,8 +9,8 @@ export default function InvoiceStatus({ status }) {
         {
           'bg-gray-100 text-gray-500': status === 'pending',
           'bg-green-500 text-white': status === 'paid',
-          'bg-red-500 text-white': status === 'late', // <-- added late status
-        },
+          'bg-red-500 text-white': status === 'late',
+        }
       )}
     >
       {status === 'pending' && (
