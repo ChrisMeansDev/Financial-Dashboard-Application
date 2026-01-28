@@ -1,3 +1,9 @@
-export default function Page() {
-  return <p>Invoices Page</p>;
+import InvoicesTable from './table';
+
+export default function InvoicesPage() {
+  return (
+    <div className="p-4 md:p-8">
+      <InvoicesTable />
+    </div>
+  );
 }
